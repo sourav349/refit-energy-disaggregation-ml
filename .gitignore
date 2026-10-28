@@ -1,0 +1,32 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+*.joblib
+data/raw/*
+data/cleaned/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+outputs/*
+!outputs/.gitkeep
+CLEAN_REFIT_081116/
+REFIT_RAW_081116/
+*.7z
+
+# REFIT datasets
+REFIT_RAW_081116/
+CLEAN_REFIT_081116/
+data/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated training artifacts
+outputs/
+*.joblib
+
+# Local system files
+.DS_Store
