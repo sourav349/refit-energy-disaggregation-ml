@@ -30,3 +30,4 @@ outputs/
 
 # Local system files
 .DS_Store
+*.egg-info/
